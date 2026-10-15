@@ -27,9 +27,21 @@ Resource: OWASP Mobile Application Security Verification Standard (MASVS) - http
 
 ## Networking
 
+Networking connects citizens’ devices to the national login platform and government services through reliable communication paths. DNS translates service domain names into IP addresses, helping devices locate the correct servers. DNS over HTTPS (DoH) sends DNS queries and responses through HTTPS, protecting them in transit from some forms of observation and interference. However, DoH does not replace authentication, firewalls, or other security controls. Network monitoring and resilient infrastructure remain essential for availability.
+
+Resource: RFC 8484: DNS Queries over HTTPS - https://www.rfc-editor.org/rfc/rfc8484.html
+
 ## Cybersecurity
 
+Cybersecurity protects citizens’ identities, credentials, and sessions from theft and unauthorized access. The service should use multi-factor authentication where appropriate, encrypt communications, restrict access by role, and monitor suspicious login activity. Security teams need incident response procedures, regular testing, and recovery plans to maintain public trust. The NIST Cybersecurity Framework provides guidance for identifying risks, protecting systems, detecting incidents, responding effectively, and recovering from disruptions across the service.
+
+Resource: NIST Cybersecurity Framework - https://www.nist.gov/cyberframework
+
 ## Data
+
+Data management ensures that identity records are accurate, consistent, and available only to authorized systems and personnel. The platform should collect only necessary information, validate records, control access, and maintain secure backups. Audit logs can help investigators understand account activity and detect unauthorized changes. Data retention rules should define how long information is stored and when it is deleted. Clear governance and privacy controls help protect citizens while supporting dependable government services.
+
+Resource: NIST SP 800-63-4: Digital Identity Guidelines - https://pages.nist.gov/800-63-4/
 
 ## Misconception in My Track
 
