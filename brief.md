@@ -45,4 +45,8 @@ Resource: NIST SP 800-63-4: Digital Identity Guidelines - https://pages.nist.gov
 
 ## Misconception in My Track
 
+A common misconception is that DNS over HTTPS makes all online activity anonymous and completely secure. In reality, DoH encrypts DNS queries between a client and its resolver, reducing exposure to observers on the network path. However, the resolver can still see the queries, and DoH does not hide all information about later connections. It also does not replace authentication, access controls, or other security measures. A national login service must combine DoH with additional protections to secure citizens’ accounts and data.
+
 ## Open Question
+
+How can a national digital login service use DNS over HTTPS to improve citizens’ privacy while maintaining effective network monitoring, threat detection, and reliable access to government services?
